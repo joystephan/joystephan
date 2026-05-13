@@ -1,9 +1,9 @@
-👋 Hi, I’m Joy Stephan
-💻 Software Engineer focused on crafting modern web, mobile & AI-powered experiences
-⚡ Building fast, scalable, and visually polished digital products with React Native, Expo, TypeScript & modern frontend technologies
-🌱 Exploring AI integration, advanced frontend engineering, and scalable application architecture
-🤝 Open to collaborations, internships, and impactful tech opportunities
-📫 Connect with me through my Portfolio, LinkedIn, or Email
+- 👋 Hi, I’m Joy Stephan
+- 💻 Software Engineer focused on crafting modern web, mobile & AI-powered experiences
+- ⚡ Building fast, scalable, and visually polished digital products with React Native, Expo, TypeScript & modern frontend technologies
+- 🌱 Exploring AI integration, advanced frontend engineering, and scalable application architecture
+- 🤝 Open to collaborations, internships, and impactful tech opportunities
+- 📫 Connect with me through my Portfolio, LinkedIn, or Email
 
 
 <!---
