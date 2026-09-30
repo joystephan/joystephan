@@ -20,9 +20,10 @@
     </filter>
   </defs>
 
+  <!-- Full background -->
   <rect x="0" y="0" width="1200" height="480" fill="url(#bg)"/>
 
-  <!-- Twinkling stars -->
+  <!-- ── Twinkling stars spread across full canvas ── -->
   <circle cx="45" cy="18" r="1.2" fill="white" opacity="0.7"><animate attributeName="opacity" values="0.7;0.1;0.7" dur="2.3s" repeatCount="indefinite"/></circle>
   <circle cx="120" cy="42" r="0.9" fill="white" opacity="0.5"><animate attributeName="opacity" values="0.5;0.9;0.5" dur="1.8s" repeatCount="indefinite"/></circle>
   <circle cx="210" cy="12" r="1.4" fill="white" opacity="0.8"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.7s" repeatCount="indefinite"/></circle>
@@ -37,6 +38,7 @@
   <circle cx="1010" cy="44" r="1.2" fill="white" opacity="0.5"><animate attributeName="opacity" values="0.5;0.8;0.5" dur="2.1s" repeatCount="indefinite"/></circle>
   <circle cx="1090" cy="15" r="0.8" fill="white" opacity="0.7"><animate attributeName="opacity" values="0.7;0.1;0.7" dur="3.0s" repeatCount="indefinite"/></circle>
   <circle cx="1160" cy="38" r="1.1" fill="white" opacity="0.6"><animate attributeName="opacity" values="0.6;0.9;0.6" dur="1.6s" repeatCount="indefinite"/></circle>
+  <!-- Mid-canvas stars -->
   <circle cx="70" cy="140" r="0.9" fill="white" opacity="0.5"><animate attributeName="opacity" values="0.5;0.9;0.5" dur="2.4s" repeatCount="indefinite"/></circle>
   <circle cx="160" cy="180" r="1.1" fill="white" opacity="0.6"><animate attributeName="opacity" values="0.6;0.2;0.6" dur="1.9s" repeatCount="indefinite"/></circle>
   <circle cx="260" cy="120" r="0.8" fill="white" opacity="0.7"><animate attributeName="opacity" values="0.7;0.1;0.7" dur="2.6s" repeatCount="indefinite"/></circle>
@@ -46,6 +48,7 @@
   <circle cx="1170" cy="270" r="1.0" fill="white" opacity="0.5"><animate attributeName="opacity" values="0.5;0.1;0.5" dur="2.3s" repeatCount="indefinite"/></circle>
   <circle cx="35" cy="320" r="0.8" fill="white" opacity="0.6"><animate attributeName="opacity" values="0.6;0.9;0.6" dur="1.7s" repeatCount="indefinite"/></circle>
   <circle cx="1155" cy="340" r="1.1" fill="white" opacity="0.5"><animate attributeName="opacity" values="0.5;0.1;0.5" dur="2.5s" repeatCount="indefinite"/></circle>
+  <!-- Lower stars -->
   <circle cx="30" cy="400" r="1.0" fill="white" opacity="0.4"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="2.9s" repeatCount="indefinite"/></circle>
   <circle cx="100" cy="440" r="1.2" fill="white" opacity="0.5"><animate attributeName="opacity" values="0.5;0.1;0.5" dur="2.2s" repeatCount="indefinite"/></circle>
   <circle cx="200" cy="420" r="0.8" fill="white" opacity="0.6"><animate attributeName="opacity" values="0.6;0.9;0.6" dur="1.7s" repeatCount="indefinite"/></circle>
@@ -55,7 +58,7 @@
   <circle cx="500" cy="380" r="0.9" fill="white" opacity="0.4"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="3.1s" repeatCount="indefinite"/></circle>
   <circle cx="700" cy="460" r="1.0" fill="white" opacity="0.5"><animate attributeName="opacity" values="0.5;0.1;0.5" dur="2.0s" repeatCount="indefinite"/></circle>
 
-  <!-- Accent glow stars -->
+  <!-- Pink/purple glowing accent stars -->
   <circle cx="80" cy="32" r="1.8" fill="#f472b6" filter="url(#glow)" opacity="0.8"><animate attributeName="opacity" values="0.8;0.3;0.8" dur="2.4s" repeatCount="indefinite"/></circle>
   <circle cx="340" cy="60" r="1.5" fill="#c084fc" filter="url(#glow)" opacity="0.7"><animate attributeName="opacity" values="0.7;0.2;0.7" dur="3.2s" repeatCount="indefinite"/></circle>
   <circle cx="520" cy="30" r="1.6" fill="#e879f9" filter="url(#glow)" opacity="0.9"><animate attributeName="opacity" values="0.9;0.3;0.9" dur="1.8s" repeatCount="indefinite"/></circle>
@@ -67,7 +70,7 @@
   <circle cx="1020" cy="440" r="1.6" fill="#f472b6" filter="url(#glow)" opacity="0.7"><animate attributeName="opacity" values="0.7;0.2;0.7" dur="2.5s" repeatCount="indefinite"/></circle>
   <circle cx="600" cy="400" r="1.5" fill="#e879f9" filter="url(#glow)" opacity="0.5"><animate attributeName="opacity" values="0.5;0.9;0.5" dur="3.0s" repeatCount="indefinite"/></circle>
 
-  <!-- Shooting stars -->
+  <!-- ── Shooting stars (diagonal, crossing full canvas) ── -->
   <g opacity="0">
     <line x1="0" y1="0" x2="-78" y2="-14" stroke="url(#nameGrad)" stroke-width="1.8" stroke-linecap="round"/>
     <circle cx="0" cy="0" r="2.2" fill="white" filter="url(#glow)"/>
@@ -93,28 +96,39 @@
     <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.85;1" dur="4.0s" begin="0.7s" repeatCount="indefinite"/>
   </g>
 
-  <!-- Name + subtitle -->
-  <text x="600" y="78" text-anchor="middle" font-family="'Trebuchet MS', Arial, sans-serif" font-size="52" font-weight="bold" fill="url(#nameGrad)" filter="url(#nameGlow)">Joy Stephan</text>
-  <text x="600" y="113" text-anchor="middle" font-family="'Trebuchet MS', Arial, sans-serif" font-size="17" fill="#c084fc" letter-spacing="1.5">Software Engineer · AI · Open to Opportunities</text>
+  <!-- ── Name + subtitle ── -->
+  <text x="600" y="78" text-anchor="middle"
+        font-family="'Trebuchet MS', Arial, sans-serif"
+        font-size="52" font-weight="bold"
+        fill="url(#nameGrad)" filter="url(#nameGlow)">Joy Stephan</text>
+
+  <text x="600" y="113" text-anchor="middle"
+        font-family="'Trebuchet MS', Arial, sans-serif"
+        font-size="17" fill="#c084fc" letter-spacing="1.5">
+    Software Engineer · AI · Open to Opportunities
+  </text>
+
+  <!-- Separator -->
   <line x1="380" y1="138" x2="820" y2="138" stroke="#c084fc" stroke-opacity="0.35" stroke-width="1"/>
 
-  <!-- 👋 wave -->
-  <text x="110" y="182" font-family="Segoe UI Emoji, Apple Color Emoji, sans-serif" font-size="21">👋<animateTransform attributeName="transform" type="rotate" values="0 119 176;22 119 176;0 119 176;-8 119 176;0 119 176" dur="2.4s" repeatCount="indefinite"/></text>
-  <text x="148" y="182" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#e2e8f0">Hey! I'm <tspan font-weight="bold" fill="#f472b6">Joy Stephan</tspan> — I turn ideas into sleek digital products</text>
+  <!-- ── Bio lines ── -->
+  <text x="110" y="182" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#e2e8f0">
+    👋 Hey! I'm <tspan font-weight="bold" fill="#f472b6">Joy Stephan</tspan> — I turn ideas into sleek digital products
+  </text>
 
-  <!-- 💻 pulse -->
-  <text x="110" y="236" font-family="Segoe UI Emoji, Apple Color Emoji, sans-serif" font-size="21">💻<animate attributeName="opacity" values="1;0.4;1" dur="2.2s" repeatCount="indefinite"/></text>
-  <text x="148" y="236" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#e2e8f0">Crafting modern <tspan font-weight="bold" fill="#f472b6">web, mobile &amp; AI-powered</tspan> experiences that actually look good</text>
+  <text x="110" y="236" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#e2e8f0">
+    💻 Crafting modern <tspan font-weight="bold" fill="#f472b6">web, mobile &amp; AI-powered</tspan> experiences that actually look good
+  </text>
 
-  <!-- ⚡ double flash -->
-  <text x="110" y="290" font-family="Segoe UI Emoji, Apple Color Emoji, sans-serif" font-size="21">⚡<animate attributeName="opacity" values="1;0.2;1;0.2;1" dur="1.6s" repeatCount="indefinite"/></text>
-  <text x="148" y="290" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#e2e8f0">Stack: <tspan font-weight="bold" fill="#f472b6">React Native · Expo · TypeScript</tspan> — fast, scalable &amp; pixel-perfect</text>
+  <text x="110" y="290" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#e2e8f0">
+    ⚡ Stack: <tspan font-weight="bold" fill="#f472b6">React Native · Expo · TypeScript</tspan> — fast, scalable &amp; pixel-perfect
+  </text>
 
-  <!-- 🤖 spin -->
-  <text x="110" y="344" font-family="Segoe UI Emoji, Apple Color Emoji, sans-serif" font-size="21">🤖<animateTransform attributeName="transform" type="rotate" values="0 121 338;15 121 338;0 121 338;-15 121 338;0 121 338" dur="3.0s" repeatCount="indefinite"/></text>
-  <text x="148" y="344" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#e2e8f0">Deep-diving into <tspan font-weight="bold" fill="#f472b6">AI Engineering</tspan> — RAG, Agents, LLMs &amp; beyond</text>
+  <text x="110" y="344" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#e2e8f0">
+    🤖 Deep-diving into <tspan font-weight="bold" fill="#f472b6">AI Engineering</tspan> — RAG, Agents, LLMs &amp; beyond
+  </text>
 
-  <!-- 🚀 launch float -->
-  <text x="110" y="398" font-family="Segoe UI Emoji, Apple Color Emoji, sans-serif" font-size="21">🚀<animateTransform attributeName="transform" type="translate" values="0,0;0,-6;0,0" dur="1.6s" repeatCount="indefinite"/></text>
-  <text x="148" y="398" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#e2e8f0">Always building, always learning — open to collabs &amp; opportunities that excite me!</text>
+  <text x="110" y="398" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#e2e8f0">
+    🚀 Always building, always learning — open to collabs &amp; opportunities that excite me!
+  </text>
 </svg>
