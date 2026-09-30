@@ -2,21 +2,21 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d2b,50:1a0533,100:2d1b69&height=180&section=header&text=Joy%20Stephan&fontSize=48&fontColor=f472b6&animation=twinkling&fontAlignY=40&desc=Software%20Engineer%20%7C%20AI%20%7C%20Open%20to%20Opportunities&descColor=c084fc&descAlignY=60&descAlign=50" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Georgia&weight=700&style=italic&size=22&pause=1000&color=F472B6&center=true&vCenter=true&width=700&lines=Crafting+modern+web+%26+mobile+experiences+%F0%9F%92%BB;Building+with+React+Native%2C+TypeScript+%26+AI+%E2%9A%A1;Exploring+AI+Engineering+%F0%9F%8C%B1;Open+to+collaborations+%26+opportunities+%F0%9F%A4%9D" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com?font=Georgia&weight=700&style=italic&size=22&pause=1000&color=F472B6&center=true&vCenter=true&width=700&lines=Turning+ideas+into+sleek+digital+products+%E2%9C%A8;React+Native+%7C+TypeScript+%7C+AI+%F0%9F%A4%96;Always+building%2C+always+shipping+%F0%9F%9A%80;Let%27s+build+something+great+together+%F0%9F%A4%9D" alt="Typing SVG"/>
 
 </div>
 
 <br/>
 
-👋 Hi, I'm **Joy Stephan**
+👋 Hey! I'm **Joy Stephan** — I turn ideas into sleek digital products
 
-💻 Software Engineer focused on crafting modern web, mobile & AI-powered experiences
+💻 Crafting modern **web, mobile & AI-powered** experiences that actually look good
 
-⚡ Building fast, scalable, and visually polished digital products with **React Native**, **Expo**, **TypeScript** & modern frontend technologies
+⚡ Stack of choice: **React Native** · **Expo** · **TypeScript** — fast, scalable & pixel-perfect
 
-🌱 Exploring AI integration, advanced frontend engineering, and scalable application architecture
+🤖 Currently deep-diving into **AI Engineering** — RAG, Agents, LLMs & beyond
 
-🤝 Open to collaborations, internships, and impactful tech opportunities
+🚀 Always building, always learning — open to collabs & opportunities that excite me!
 
 <br/>
 
