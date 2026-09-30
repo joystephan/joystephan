@@ -122,7 +122,7 @@
 
   <!-- ⚡ double flash -->
   <text x="110" y="290" font-family="Segoe UI Emoji, Apple Color Emoji, sans-serif" font-size="21">⚡<animate attributeName="opacity" values="1;0.2;1;0.2;1" dur="1.6s" repeatCount="indefinite"/></text>
-  <text x="148" y="290" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#e2e8f0">Stack: <tspan font-weight="bold" fill="#f472b6">React Native · Expo · TypeScript</tspan> — fast, scalable &amp; pixel-perfect</text>
+  <text x="148" y="290" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#e2e8f0">Stack: <tspan font-weight="bold" fill="#f472b6">Python . React Native · Expo · TypeScript</tspan> — fast, scalable &amp; pixel-perfect</text>
 
   <!-- 🤖 rock -->
   <text x="110" y="344" font-family="Segoe UI Emoji, Apple Color Emoji, sans-serif" font-size="21">🤖<animateTransform attributeName="transform" type="rotate" values="0 121 338;15 121 338;0 121 338;-15 121 338;0 121 338" dur="3.0s" repeatCount="indefinite"/></text>
