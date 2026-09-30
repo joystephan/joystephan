@@ -2,37 +2,30 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d2b,50:1a0533,100:2d1b69&height=180&section=header&text=Joy%20Stephan&fontSize=48&fontColor=f472b6&animation=twinkling&fontAlignY=40&desc=Software%20Engineer%20%7C%20AI%20%7C%20Open%20to%20Opportunities&descColor=c084fc&descAlignY=60&descAlign=50" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Georgia&weight=700&style=italic&size=22&pause=1000&color=F472B6&center=true&vCenter=true&width=650&lines=Building+modern+web+%26+mobile+apps;Exploring+AI+Engineering;Open+to+Opportunities+%F0%9F%9A%80" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com?font=Georgia&weight=700&style=italic&size=22&pause=1000&color=F472B6&center=true&vCenter=true&width=700&lines=Crafting+modern+web+%26+mobile+experiences+%F0%9F%92%BB;Building+with+React+Native%2C+TypeScript+%26+AI+%E2%9A%A1;Exploring+AI+Engineering+%F0%9F%8C%B1;Open+to+collaborations+%26+opportunities+%F0%9F%A4%9D" alt="Typing SVG"/>
 
 </div>
 
 <br/>
 
-**Software Engineer** building modern web, mobile & AI-powered solutions.
+👋 Hi, I'm **Joy Stephan**
 
-📬 [Portfolio](https://joy-portfolio-new.netlify.app/) · [LinkedIn](https://www.linkedin.com/in/joy-stephan/) · [Email](mailto:joystephan.dev@gmail.com)
+💻 Software Engineer focused on crafting modern web, mobile & AI-powered experiences
 
----
+⚡ Building fast, scalable, and visually polished digital products with **React Native**, **Expo**, **TypeScript** & modern frontend technologies
 
-🛠️ **Stack**
+🌱 Exploring AI integration, advanced frontend engineering, and scalable application architecture
 
-<div align="center">
+🤝 Open to collaborations, internships, and impactful tech opportunities
 
-[![My Skills](https://skillicons.dev/icons?i=react,ts,js,python,nextjs,tailwind,nodejs,git,github&perline=9)](https://skillicons.dev)
-
-</div>
-
----
-
-📊 **GitHub Stats**
+<br/>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=joystephan&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&title_color=f472b6&icon_color=c084fc" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=joystephan&layout=compact&theme=tokyonight&hide_border=true&title_color=f472b6" height="160"/>
-</div>
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=joystephan&theme=tokyonight&hide_border=true&ring=f472b6&fire=c084fc&currStreakLabel=f472b6" height="160"/>
+[![Portfolio](https://img.shields.io/badge/Portfolio-0d0d2b?style=for-the-badge&logo=netlify&logoColor=f472b6)](https://joy-portfolio-new.netlify.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0d0d2b?style=for-the-badge&logo=linkedin&logoColor=c084fc)](https://www.linkedin.com/in/joy-stephan/)
+[![Email](https://img.shields.io/badge/Email-0d0d2b?style=for-the-badge&logo=gmail&logoColor=f472b6)](mailto:joystephan.dev@gmail.com)
+
 </div>
 
 <br/>
