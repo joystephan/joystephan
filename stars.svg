@@ -114,21 +114,21 @@
   <!-- ── Bio lines ── -->
     <!-- 👋 wave -->
   <text x="110" y="182" font-family="Segoe UI Emoji, Apple Color Emoji, sans-serif" font-size="21">👋<animateTransform attributeName="transform" type="rotate" values="0 119 176;22 119 176;0 119 176;-8 119 176;0 119 176" dur="2.4s" repeatCount="indefinite"/></text>
-  <text x="148" y="182" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#e2e8f0">Hey! I'm <tspan font-weight="bold" fill="#330d54">Joy Stephan</tspan> — I turn ideas into sleek digital products</text>
+  <text x="148" y="182" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#f472b6">Hey! I'm <tspan font-weight="bold" fill="#330d54">Joy Stephan</tspan> — I turn ideas into sleek digital products</text>
 
   <!-- 💻 pulse -->
   <text x="110" y="236" font-family="Segoe UI Emoji, Apple Color Emoji, sans-serif" font-size="21">💻<animate attributeName="opacity" values="1;0.4;1" dur="2.2s" repeatCount="indefinite"/></text>
-  <text x="148" y="236" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#e2e8f0">Crafting modern <tspan font-weight="bold" fill="#330d54">web, mobile &amp; AI-powered</tspan> experiences that actually look good</text>
+  <text x="148" y="236" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#f472b6">Crafting modern <tspan font-weight="bold" fill="#330d54">web, mobile &amp; AI-powered</tspan> experiences that actually look good</text>
 
   <!-- ⚡ double flash -->
   <text x="110" y="290" font-family="Segoe UI Emoji, Apple Color Emoji, sans-serif" font-size="21">⚡<animate attributeName="opacity" values="1;0.2;1;0.2;1" dur="1.6s" repeatCount="indefinite"/></text>
-  <text x="148" y="290" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#e2e8f0">Stack: <tspan font-weight="bold" fill="#330d54">Python . React Native · Expo · TypeScript</tspan> — fast, scalable &amp; pixel-perfect</text>
+  <text x="148" y="290" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#f472b6">Stack: <tspan font-weight="bold" fill="#330d54">Python . React Native · Expo · TypeScript</tspan> — fast, scalable &amp; pixel-perfect</text>
 
   <!-- 🤖 rock -->
   <text x="110" y="344" font-family="Segoe UI Emoji, Apple Color Emoji, sans-serif" font-size="21">🤖<animateTransform attributeName="transform" type="rotate" values="0 121 338;15 121 338;0 121 338;-15 121 338;0 121 338" dur="3.0s" repeatCount="indefinite"/></text>
-  <text x="148" y="344" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#e2e8f0">Deep-diving into <tspan font-weight="bold" fill="#330d54">AI Engineering</tspan> — RAG, Agents, LLMs &amp; beyond</text>
+  <text x="148" y="344" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#f472b6">Deep-diving into <tspan font-weight="bold" fill="#330d54">AI Engineering</tspan> — RAG, Agents, LLMs &amp; beyond</text>
 
   <!-- 🚀 launch -->
   <text x="110" y="398" font-family="Segoe UI Emoji, Apple Color Emoji, sans-serif" font-size="21">🚀<animateTransform attributeName="transform" type="translate" values="0,0;0,-6;0,0" dur="1.6s" repeatCount="indefinite"/></text>
-  <text x="148" y="398" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#e2e8f0">Always building, always learning — open to collabs &amp; opportunities that excite me!</text>
+  <text x="148" y="398" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#f472b6">Always building, always learning — open to collabs &amp; opportunities that excite me!</text>
 </svg>
